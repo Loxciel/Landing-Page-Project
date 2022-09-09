@@ -16,9 +16,25 @@ ul {
   display: flex;
 }
 
+li {
+  margin: 0 5px;
+}
+
+button {
+  max-width: 72px;
+  padding: 5px;
+  background-color: #3882f6;
+  border-radius: 5px;
+  border-style: none;
+  color: #F9FAF8;
+  font-weight: 525;
+}
+
 .top {
   display: flex;
   background-color: #1F2937;
+  justify-content: space-evenly;
+  padding: 32px
 }
 
 h1 {
@@ -27,7 +43,7 @@ h1 {
   font-weight: bolder;
 }
 
-.top > p {
+.title > p {
   color: #E5E7EB;
 }
 
@@ -43,4 +59,9 @@ img {
 
 .bottom {
   flex-direction: column;
+}
+
+.title {
+  flex-direction: column;
+  max-width: 400px;
 }
