@@ -41,7 +41,7 @@ button {
   display: flex;
   background-color: #1F2937;
   justify-content: space-evenly;
-  padding: 32px;
+  padding: 48px;
 }
 
 h1 {
@@ -50,15 +50,17 @@ h1 {
   font-weight: bolder;
 }
 
+.title {
+  flex-direction: column;
+  max-width: 400px;
+}
+
 .title > p {
   display: flex;
   color: #E5E7EB;
 }
 
-.title {
-  flex-direction: column;
-  max-width: 400px;
-}
+
 
 img {
   max-width:300px;
@@ -70,7 +72,7 @@ img {
 .middle {
   display: flex;
   text-align: center;
-  justify-content: space-around;
+  justify-content: center
 }
 
 h2 {
@@ -83,15 +85,21 @@ h2 {
 .gallery {
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  margin: 16px;
 }
 
 .gallery > img {
   border-radius: 7px;
-  border-style: 
+  border-width: 3px;
+  border-style: solid;
+  border-color: #3882f6;
+  max-width: 150px;
+  max-height: auto;
 }
 
 .gallery > p {
-  max-width: 300px;
+  max-width: 150px;
 }
 
 /* BOTTOM PART OF PAGE/QUOTE */
@@ -99,6 +107,38 @@ h2 {
 .bottom {
   display:flex;
   flex-direction: column;
+  justify-content: center;
 }
 
+.quote {
+  padding: 16px;
+  background-color: #E5E7EB;
+  font-size: 36px;
+  font-weight: light;
+  font-style: italic;
+  color: #1F2937;
+}
 
+.form {
+  display: flex;
+  justify-content: center;
+  padding: 48px;
+  background-color: #3882f6;
+  border-radius: 5px;
+  margin: 48px;
+  max-width: 600px;
+  max-height: 50%;
+}
+
+.form > button {
+  border-style: solid;
+  border-color: white;
+}
+
+.formtext {
+  flex: 1 1 auto;
+}
+
+.footer {
+  text-align: center;
+}
