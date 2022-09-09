@@ -35,3 +35,12 @@ img {
   max-width:300px;
   max-height:auto;
 }
+
+.container {
+  display: flex;
+  padding: 16px;
+}
+
+.bottom {
+  flex-direction: column;
+}
