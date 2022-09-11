@@ -113,16 +113,16 @@ h2 {
 .message {
   padding: 16px;
   background-color: #E5E7EB;
-  font-size: 36px;
-  font-weight: light;
-  font-style: italic;
-  color: #1F2937;
   display: flex;
   flex-direction: column;
 }
 
 .quote {
-  max-width: 450px;
+  font-size: 36px;
+  font-weight: light;
+  font-style: italic;
+  color: #1F2937;
+  max-width: 60vw;
   width: auto;
   margin: auto;
 }
@@ -137,23 +137,44 @@ h2 {
 
 .form {
   display: flex;
-  padding: 48px;
+  padding: 3vh 4vw;
   background-color: #3882f6;
   border-radius: 5px;
-  margin: 48px;
-  max-width: 600px;
-  max-height: 50%;
+  max-width: 900px;
+  max-height: 25%;
   margin: 16px auto;
+  min-width: 600px;
+  justify-content: space-between;
 }
 
 .form > button {
   border-style: solid;
   border-color: white;
+  margin: auto;
+  padding: 4px 16px;
+  margin-right: 0;
 }
 
 .formtext {
   flex: 1 1 auto;
+  max-width: 300px;
 }
+
+.formtext > h2 {
+  text-align: left;
+  margin: 0 0 4px auto;
+  font-size: 18px;
+  font-weight: 900;
+  color: #F9FAF8;
+}
+
+.formtext > p {
+  margin: 0 0 0 auto;
+  font-size: 10px;
+  font-weight: lighter;
+  color: #F9FAF8;
+  padding-right: 8px;
+} 
 
 .footer {
   text-align: center;
